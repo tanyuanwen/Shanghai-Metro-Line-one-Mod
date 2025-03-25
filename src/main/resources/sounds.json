@@ -1,0 +1,14 @@
+{
+  "nextstation_waihuanroad_1_1_1": {
+    "subtitle": "sounds.sh1.nextstation_waihuanroad_1_1_1",
+    "sounds": [
+      "shanghai-metro-line-one-mod:next-waihuanroad1-1-1"
+    ]
+  },
+  "go_xinzhuang_1": {
+    "subtitle": "sounds.sh1.go_xinzhuang_1",
+    "sounds": [
+      "shanghai-metro-line-one-mod:go_xinzhuang_1"
+    ]
+  }
+}

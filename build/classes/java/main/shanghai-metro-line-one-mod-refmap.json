@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "cn/tywmc/sh1/mixin/ShanghaiMetroLineOneModMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "cn/tywmc/sh1/mixin/ShanghaiMetroLineOneModMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      }
+    }
+  }
+}

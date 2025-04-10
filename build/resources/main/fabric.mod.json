@@ -1,0 +1,61 @@
+{
+	"schemaVersion": 1,
+	"id": "shanghai-metro-line-one-mod",
+	"version": "1.0.0",
+	"name": "Shanghai Metro Line one Mod",
+	"description": "上海地铁1号线报站以及站台装饰
+Shanghai Metro Line 1 station and platform decoration",
+	"authors": [
+		"TYW"
+	],
+	"contact": {
+		"homepage": "http://metromod.tywmc.cn/",
+		"sources": "https://github.com/tanyuanwen/Shanghai-Metro-Line-one-Mod"
+	},
+	"license": "MIT",
+	"icon": "assets/shanghai-metro-line-one-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.tywmc.sh1.ShanghaiMetroLineOneMod"
+		],
+		"client": [
+			"cn.tywmc.sh1.ShanghaiMetroLineOneModClient"
+		],
+		"fabric-datagen": [
+			"cn.tywmc.sh1.ShanghaiMetroLineOneModDataGenerator"
+		]
+	},
+	"mixins": [
+		"shanghai-metro-line-one-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+
+		"modmenu": {
+			"links": {
+				"modmenu.website": "http://metromod.tywmc.cn/",
+				"modmenu.license": "https://github.com/tanyuanwen/Shanghai-Metro-Line-one-Mod?tab=MIT-1-ov-file",
+				"modmenu.issues": "https://github.com/tanyuanwen/Shanghai-Metro-Line-one-Mod/issues"
+			},
+			"badges": [ "library", "deprecated" ],
+			"parent": {
+				"id": "shanghai-metro-line-one-mod",
+				"name": "Shanghai Metro Line one Mod",
+				"description": "Shanghai Metro Line one Mod",
+				"icon": "assets/shanghai-metro-line-one-mod/icon.png",
+				"badges": [ "library" ]
+
+			},
+			"update_checker": false
+		}
+	}
+}
